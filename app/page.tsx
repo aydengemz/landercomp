@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { AlertCircle, Users, Gift, Clock, ExternalLink } from 'lucide-react';
+import { Gift, Clock, ExternalLink } from 'lucide-react';
 import { Alert, AlertDescription } from './components/alert';
 import { Card, CardContent } from './components/card';
 import { Button } from './components/button';
@@ -146,38 +146,9 @@ const RecentWinner: React.FC = () => {
   );
 };
 
-// Online Users Component
-const OnlineUsers: React.FC = () => {
-  const [userCount, setUserCount] = useState(234);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setUserCount(prev => prev + Math.floor(Math.random() * 3));
-    }, 2000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  return (
-    <motion.div className="fixed top-4 right-2 sm:right-4 bg-white/95 p-2.5 sm:p-3 rounded-lg shadow-md border border-red-100/50 backdrop-blur-sm flex items-center space-x-2">
-      <Users className="w-5 h-5 text-red-500" />
-      <span className="font-medium text-gray-800 text-sm sm:text-base">{userCount} online now</span>
-    </motion.div>
-  );
-};
 
 // Home Component - Main Page Layout
 export default function Home() {
-  const [currentStep, setCurrentStep] = useState(1);
-  const [email, setEmail] = useState('');
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if (email) {
-      setCurrentStep(2);
-    }
-  };
-
   return (
     <div className="min-h-screen flex flex-col items-center justify-center relative">
       <RecentWinner />
@@ -209,9 +180,9 @@ export default function Home() {
           <Card className="w-full bg-white/90 rounded-xl mb-6">
             <CardContent className="p-6">
               <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">Steps to Claim</h2>
-              <ProgressStep number={1} title="Enter Email + Basic Info" isActive={currentStep === 1} isCompleted={currentStep > 1} />
-              <ProgressStep number={2} title="Complete Recommended Deals" isActive={currentStep === 2} isCompleted={currentStep > 2} />
-              <ProgressStep number={3} title="Get Your $750 Gift Card" isActive={currentStep === 3} isCompleted={currentStep > 3} />
+              <ProgressStep number={1} title="Enter Email + Basic Info" isActive={false} isCompleted={false}/>
+              <ProgressStep number={2} title="Complete Recommended Deals"  isActive={false} isCompleted={false} />
+              <ProgressStep number={3} title="Get Your $750 Gift Card" isActive={false} isCompleted={false} />
             </CardContent>
           </Card>
 
