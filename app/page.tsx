@@ -95,8 +95,8 @@ const RecentWinner = () => {
   useEffect(() => {
     const handleResize = () => {
       // Debug: Log to ensure handleResize is triggered
-      console.log('Window resized, showAlert:', window.innerHeight > 750);
-      setShowAlert(window.innerHeight > 750);
+      console.log('Window resized, showAlert:', window.innerHeight > 600);
+      setShowAlert(window.innerHeight > 600);
     };
     handleResize();
     window.addEventListener('resize', handleResize);
