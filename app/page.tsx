@@ -78,7 +78,7 @@ const AffiliateButton = () => (
       animate={{ scale: [1, 1.02, 1], opacity: [0.5, 0.7, 0.5] }}
       transition={{ duration: 2, repeat: Infinity, repeatType: "reverse" }}
     />
-    <a href="https://t.afftrackr.com/?lnwk=7oalGrDCjNa2UPlyLbn9tclGWbHYmNUQvQJDRoz7h5U%3d&s1=" target="_blank" rel="noopener noreferrer">
+    <a href="https://t.afftrackr.com/?yte=ctpq4NGRdY9H9EqNoDVAUY5bKl3pvaM5vQJDRoz7h5U%3d&s1=" target="_blank" rel="noopener noreferrer">
       <Button className="relative z-10 bg-gradient-to-r from-green-400 to-green-600 text-white font-semibold py-5 px-14 rounded-full text-lg flex items-center gap-2 shadow-lg hover:from-green-500 hover:to-green-700"> {/* Adjusted py-4 to py-3 */}
         Claim Your Cash Now
         <ExternalLink className="w-6 h-6" />
