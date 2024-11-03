@@ -179,8 +179,8 @@ export default function Home() {
               <h2 className="text-2xl font-bold text-white mb-3 text-center"> {/* Reduced mb-4 to mb-3 */}
                 3 Simple Steps
               </h2>
-              <ProgressStep number={1} title="Enter Cash App Details" isActive={false} isCompleted={false} />
-              <ProgressStep number={2} title="Complete Verification" isActive={false} isCompleted={false} />
+              <ProgressStep number={1} title="Enter Basic Info" isActive={false} isCompleted={false} />
+              <ProgressStep number={2} title="Complete Recommended Deals" isActive={false} isCompleted={false} />
               <ProgressStep number={3} title="Receive Your $750" isActive={false} isCompleted={false} />
             </CardContent>
           </Card>
