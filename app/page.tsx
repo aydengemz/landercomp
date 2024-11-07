@@ -80,7 +80,7 @@ const AffiliateButton = () => (
     />
     <a href="https://t.afftrackr.com/?yte=ctpq4NGRdY9H9EqNoDVAUY5bKl3pvaM5vQJDRoz7h5U%3d&s1=" target="_blank" rel="noopener noreferrer">
       <Button className="relative z-10 bg-gradient-to-r from-green-400 to-green-600 text-white font-semibold py-5 px-14 rounded-full text-lg flex items-center gap-2 shadow-lg hover:from-green-500 hover:to-green-700"> {/* Adjusted py-4 to py-3 */}
-        Claim Your Cash Now
+        Claim Cash Now
         <ExternalLink className="w-6 h-6" />
       </Button>
     </a>
@@ -160,7 +160,7 @@ export default function Home() {
         <motion.div className="w-full max-w-md flex flex-col items-center gap-2"> {/* Reduced gap-4 to gap-2 */}
           <div className="mb-3 w-28 sm:w-32 md:w-40 rounded-full overflow-hidden shadow-lg p-2"> {/* Reduced mb-4 to mb-3 */}
             <img
-              src="landerpage/app/$.png"
+              src="https://raw.githubusercontent.com/aydengemz/landerTemp/refs/heads/main/app/%24.png"
               alt="Cash App Logo"
               className="w-full h-full object-contain"
             />
