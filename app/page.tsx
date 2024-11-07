@@ -160,7 +160,7 @@ export default function Home() {
         <motion.div className="w-full max-w-md flex flex-col items-center gap-2"> {/* Reduced gap-4 to gap-2 */}
           <div className="mb-3 w-28 sm:w-32 md:w-40 rounded-full overflow-hidden shadow-lg p-2"> {/* Reduced mb-4 to mb-3 */}
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Square_Cash_app_logo.svg/1200px-Square_Cash_app_logo.svg.png"
+              src="landerpage/app/$.png"
               alt="Cash App Logo"
               className="w-full h-full object-contain"
             />
@@ -168,7 +168,7 @@ export default function Home() {
 
           <div className="relative text-center w-full max-w-xs py-2"> {/* Reduced py-4 to py-2 */}
             <h1 className="relative z-10 text-3xl font-bold text-green-400 mb-2"> {/* Reduced mb-1 to mb-2 */}
-              Get $750 Cash App!
+              Get $750 Cash!
             </h1>
           </div>
 
