@@ -160,7 +160,7 @@ export default function Home() {
         <motion.div className="w-full max-w-md flex flex-col items-center gap-2"> {/* Reduced gap-4 to gap-2 */}
           <div className="mb-3 w-28 sm:w-32 md:w-40 rounded-full overflow-hidden shadow-lg p-2"> {/* Reduced mb-4 to mb-3 */}
             <img
-              src="https://www.logo.wine/a/logo/Cash_App/Cash_App-Logo.wine.svg"
+              src="https://assets.apk.live/com.squareup.cash--2470200-post.png"
               alt="Cash App Logo"
               className="w-full h-full object-contain"
             />
