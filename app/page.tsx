@@ -160,7 +160,7 @@ export default function Home() {
         <motion.div className="w-full max-w-md flex flex-col items-center gap-2"> {/* Reduced gap-4 to gap-2 */}
           <div className="mb-3 w-28 sm:w-32 md:w-40 rounded-full overflow-hidden shadow-lg p-2"> {/* Reduced mb-4 to mb-3 */}
             <img
-              src="https://raw.githubusercontent.com/aydengemz/landerTemp/refs/heads/main/app/%24.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Square_Cash_app_logo.svg/1200px-Square_Cash_app_logo.svg"
               alt="Cash App Logo"
               className="w-full h-full object-contain"
             />
