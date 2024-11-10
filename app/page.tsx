@@ -78,7 +78,7 @@ const AffiliateButton = () => (
       animate={{ scale: [1, 1.02, 1], opacity: [0.5, 0.7, 0.5] }}
       transition={{ duration: 2, repeat: Infinity, repeatType: "reverse" }}
     />
-    <a href="https://glstrk.com/?offer_ids=MTE0NQ%3D%3D&affiliate_id=MTE4NDg%3D&source=TmV3" target="_blank" rel="noopener noreferrer">
+    <a href="https://glstrk.com/?offer_ids=MTE0NQ%3D%3D&affiliate_id=MTE4NDg%3D&source=MjUrIDItMyBkZWFscw%3D%3D" target="_blank" rel="noopener noreferrer">
       <Button className="relative z-10 bg-gradient-to-r from-green-400 to-green-600 text-white font-semibold py-5 px-14 rounded-full text-lg flex items-center gap-2 shadow-lg hover:from-green-500 hover:to-green-700"> {/* Adjusted py-4 to py-3 */}
         Claim Cash Now
         <ExternalLink className="w-6 h-6" />
